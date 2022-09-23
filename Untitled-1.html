@@ -5,24 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+    div {
+        width: 100px; 
+        float: left;
+    }
+    div.cabecera{background-color:#7480c5; border: 3px solid black;
+    width: 30%;
+    }
+    div.menu{
+        background-color:rgb(194, 216, 116);
+         border: 3px solid black;
+         width: 30%;
+    }
+  div.prometeo{
+    background-color: rgb(140, 216, 140);
+    border: 3px solid black;
+    width: 30%;
+  }
+    </style>
 </head>
 <body>
-    <div style="float: left; background-color:#7480c5; border: 3px solid black;">
+    <div class="cabecera">
         <h1>Esto es una capa</h1>
         <p>Esta capa va ser roja</p>
     </div>
-    <div style="float: left; background-color:rgb(194, 216, 116); border: 3px solid black;">
+    <div class="menu" style=" ">
         <h1>Esto es otra capa</h1>
         <p>Esta capa va ser verde</p>
     </div>
-    <div style=" float: left; background-color: rgb(140, 216, 140);border: 3px solid black;">
-        <h1>Esta es la ultima capa</h1>
+    <div class="prometeo" style="background-color: rgb(140, 216, 140);border: 3px solid black;">
+        <h1>Esta es una capa</h1>
         <p>Esta capa va ser verde</p>
     </div>
 </div>
-<div style="  float: left; background-color: rgb(216, 140, 140);border: 3px solid black;">
-    <h1>Esta es la ultima capa</h1>
-    <p>Esta capa va ser verde</p>
-</div>
+
 </body>
 </html>
